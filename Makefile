@@ -80,4 +80,13 @@ help:
 	} \
 	{ lastLine = $$0 }' $(MAKEFILE_LIST)
 
+# run
+run:
+	./bin/kratos-demo -conf configs/config.yaml
+
+# http test
+test:
+	curl --location 'http://127.0.0.1:8000/helloworld/miaoyc'
+
+
 .DEFAULT_GOAL := help
