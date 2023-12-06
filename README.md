@@ -1,5 +1,8 @@
 # Kratos Project Template
 
+## Kratos Examples
+[examples](https://github.com/go-kratos/examples/tree/main)
+
 ## Install Kratos
 ```
 go install github.com/go-kratos/kratos/cmd/kratos/v2@latest
